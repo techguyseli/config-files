@@ -87,7 +87,6 @@ _open_files_for_editing() {
 ################################################################################
 
 # my aliases
-#alias trsh="mv -t ~/.local/share/Trash/files/"
 alias vi="nvim"
 alias vim="nvim"
 alias studies="cd /home/seli/studies/emsi-4/s1/"
@@ -98,10 +97,7 @@ alias umlstudies="cd /home/seli/studies/emsi-4/s1/uml/"
 alias dotnetstudies="cd /home/seli/studies/emsi-4/s1/dot_net"
 alias dotnetprojectstudies="cd /home/seli/studies/emsi-4/projects/hotel-io/"
 alias javaprojectstudies="javastudies; cd project/banking/"
-alias ittests="cd /home/seli/test"
-alias battery="/home/seli/.config/i3/scripts/battery1 | head -n 1"
-alias statinfo="battery; date;"
 
 # my exports
-export PATH="/home/seli/mybin:/home/seli/.local/bin:$PATH"
+export PATH="$PATH:$HOME/.local/bin:$HOME/mybin"
 export PS1="\[$(tput bold)\]\[$(tput setaf 4)\]\W \[$(tput setaf 3)\]> \[$(tput sgr0)\]"
