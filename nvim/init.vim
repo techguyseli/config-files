@@ -152,6 +152,6 @@ endif
 set exrc
 "}}}
 
-set foldenable 
-set foldmethod=indent
+"set foldenable 
+"set foldmethod=indent
 " vim: set foldmethod=marker foldlevel=0:
