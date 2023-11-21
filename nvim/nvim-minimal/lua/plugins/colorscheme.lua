@@ -1,6 +1,7 @@
+--[[
 return {
   {
-    "craftzdog/solarized-osaka.nvim",
+    "ellisonleao/gruvbox.nvim",
     lazy = true,
     priority = 1000,
     opts = function()
@@ -9,4 +10,17 @@ return {
       }
     end,
   },
+}
+]]
+return {
+  -- add gruvbox
+  { "ellisonleao/gruvbox.nvim" },
+
+  -- Configure LazyVim to load gruvbox
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "gruvbox",
+    },
+  }
 }
