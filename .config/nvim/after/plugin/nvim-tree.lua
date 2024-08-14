@@ -17,8 +17,13 @@ require("nvim-tree").setup({
     group_empty = true,
   },
   filters = {
-    dotfiles = true,
+    dotfiles = false,
   },
+  actions = {
+    open_file = {
+      quit_on_open = true, -- Close tree when opening a file
+    }
+  }
 })
 
 vim.keymap.set(
