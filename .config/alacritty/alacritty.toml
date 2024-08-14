@@ -19,7 +19,7 @@ white = "#F5F5F5"
 yellow = "#E5C07B"
 
 [colors.primary]
-background = "#161616"
+background = "#202020"
 foreground = "#D0D0D0"
 
 [font]
@@ -40,9 +40,9 @@ style = "Regular"
 [window]
 opacity = 0.7
 
-#[window.padding]
-#x = 5 
-#y = 5
+[window.padding]
+x = 5 
+y = 5
 
 [window.dimensions]
 columns = 120
